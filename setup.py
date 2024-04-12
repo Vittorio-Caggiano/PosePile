@@ -19,7 +19,7 @@ setup(
     python_requires='>=3.6',
     install_requires=[] if dependencies_managed_by_conda else [
         'tensorflow',
-        'attrdict',
+        'attrdict@git+https://github.com/Jendker/attrdict.git',
         'transforms3d',
         'numpy',
         'scipy',
