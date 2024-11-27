@@ -33,6 +33,6 @@ setup(
         'rlemasklib @ git+https://github.com/isarandi/rlemasklib.git',
         'simplepyutils @ git+https://github.com/isarandi/simplepyutils.git',
         'humcentr-cli @ git+https://github.com/isarandi/humcentr-cli.git',
-        'barecat @ git+https://github.com/isarandi/BareCat.git',
+        'barecat @ git+https://github.com/Vittorio-Caggiano/BareCat',
     ]
 )
