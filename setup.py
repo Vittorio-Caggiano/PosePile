@@ -2,10 +2,10 @@ from setuptools import setup
 import os
 import os.path as osp
 
-try:
-    dependencies_managed_by_conda = os.environ['DEPENDENCIES_MANAGED_BY_CONDA'] == '1'
-except KeyError:
-    dependencies_managed_by_conda = False
+# try:
+#     dependencies_managed_by_conda = os.environ['DEPENDENCIES_MANAGED_BY_CONDA'] == '1'
+# except KeyError:
+dependencies_managed_by_conda = False
 
 setup(
     name='posepile',
