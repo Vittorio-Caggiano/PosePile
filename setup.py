@@ -25,7 +25,7 @@ setup(
         'scipy',
         'more-itertools',
         'msgpack-numpy',
-        'numba',
+        'numba==0.60.0',
         'jpeg4py',
         'imageio[ffmpeg]',
         'cameralib @ git+https://github.com/isarandi/cameralib.git',
